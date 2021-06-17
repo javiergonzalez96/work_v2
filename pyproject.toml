@@ -8,3 +8,4 @@ author = "Javier Gonzalez"
 author-email = "javier.gonzalez96@student.ie.edu"
 description-file = "README.md"
 
+requires = ["pandas"]
