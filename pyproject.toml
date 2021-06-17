@@ -3,7 +3,7 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-module = "ie_work"
+module = "ie_work2"
 author = "Javier Gonzalez"
 author-email = "javier.gonzalez96@student.ie.edu"
 description-file = "README.md"
