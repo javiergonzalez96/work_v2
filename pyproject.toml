@@ -3,9 +3,10 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-module = "ie_work2"
+module = "ie_bike_model"
 author = "Javier Gonzalez"
 author-email = "javier.gonzalez96@student.ie.edu"
 description-file = "README.md"
-
-requires = ["pandas"]
+requires = ["pandas", "numpy", "sklearn","joblib"]
+[tool.flit.metadata.requires-extra]
+dev=["pytest","black"]

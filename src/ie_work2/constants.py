@@ -1,1 +1,0 @@
-GREETING = " a b c d "
